@@ -34,7 +34,7 @@ DFOLDERS=('binary'
 )
 
 # Sourcing spot configuration variables
-source /etc/spot.conf
+source /etc/spot/spot.conf
 
 # Creating HDFS user's folder
 sudo -u hdfs hdfs dfs -mkdir ${HUSER}
